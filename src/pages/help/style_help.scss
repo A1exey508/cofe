@@ -1,0 +1,346 @@
+
+
+.help{
+  display: flex;
+  height: 140px;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 96px;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+    span{
+      background: rgba(204, 128, 255, 0.59);
+      padding: 20px;
+    }
+
+}
+
+.FIO_T{
+display: flex;
+font-family: PT Serif;
+font-size: 36px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+justify-content: center;
+align-items: center;
+}
+
+
+.FIO {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FIO__input {
+  display: flex;
+  width: 500px;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.phone_T{
+  display: flex;
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone__input {
+  display: flex;
+  width: 500px;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.problem_T{
+  display: flex;
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.problem {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.problem__input {
+  display: flex;
+  width: 500px;
+  height: 200px;
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.niz_problem{
+display: flex;
+color: #000;
+text-align: center;
+font-size: 20px;
+font-family: Piazzolla;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+justify-content: center;
+align-items: center;
+
+}
+
+.niz_button {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  div{
+    display: flex;
+    border-radius: 50px;
+    color: rgb(126, 100, 100);
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 7.5em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    a:hover { background: rgba(255,255,255,.2); }
+    a:active { background: white; }
+  }
+} 
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+
+  .help{
+    display: flex;
+    height: 140px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 32px;
+    font-family: Piazzolla;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+      span{
+        background: rgba(204, 128, 255, 0.59);
+        padding: 20px;
+      }
+  
+  }
+  
+  .FIO_T{
+  display: flex;
+  font-family: PT Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  
+  .FIO {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .FIO__input {
+    display: flex;
+    width: 500px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  
+  .phone_T{
+    display: flex;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .phone {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .phone__input {
+    display: flex;
+    width: 500px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .problem_T{
+    display: flex;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .problem {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .problem__input {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .niz_problem{
+  display: flex;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  
+  .niz_button {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    div{
+      display: flex;
+      border-radius: 50px;
+      color: rgb(126, 100, 100);
+      font-weight: 700;
+      text-decoration: none;
+      user-select: none;
+      padding: .5em 7.5em;
+      outline: none;
+      border: 2px solid;
+      border-radius: 1px;
+      transition: 0.2s;
+      a:hover { background: rgba(255,255,255,.2); }
+      a:active { background: white; }
+    }
+  } 
+}

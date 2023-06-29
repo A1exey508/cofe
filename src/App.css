@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -34,5 +36,10 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 391px) {
+  .App {
+    max-width: 100%;
   }
 }

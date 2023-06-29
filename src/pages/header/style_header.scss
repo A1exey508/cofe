@@ -1,0 +1,113 @@
+a:-webkit-any-link{
+color: #000;
+text-decoration: none;
+}
+
+.header {
+  padding-top: 50px;
+  padding-bottom: 45px;
+  display: flex;
+  background-color:#fffdff; ;
+
+  &__menu {
+    flex: 2;
+    display: flex;
+    > div {
+      flex: 1;
+      a {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 21px;
+        color: #161616;
+        text-decoration: none;
+        transition: 0.3s;
+        opacity: 1;
+      }
+      a:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+  &__logo {
+    flex: 1;
+  }
+  &_icons {
+    display: flex;
+    flex: 1;
+    > div {
+      padding-right: 30px;
+      flex: 1;
+    }
+    > div:last-child {
+      padding-right: 0;
+    }
+    justify-content: right;
+  }
+}
+
+
+.header-mobile{
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+.header {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+    flex-direction: column;
+    &__menu {
+      padding-top: 40px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-bottom: 40px;
+      display: flex;
+      > div:last-child {
+        margin-left: auto;
+        position: absolute;
+        left: 285px;
+        top: 31px;
+      }
+    }
+    &__block {
+      position: absolute;
+      max-height: 0px;
+      margin-top: 80px;
+      transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+    }
+    &__block-open {
+      max-height: 150px;
+      transition: max-height 0.3s cubic-bezier(1, 1, 1, 1);
+      height: 100vh;
+      left: 200px;
+      top: -62px;
+      > div {
+        padding-top: 10px;
+        padding-left: 24px;
+        a {
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 0px;
+          color: #0061ff;
+          text-decoration: none;
+          transition: 0.3s;
+          opacity: 0.8;
+          z-index: 1;
+          position: relative;
+        }
+        a:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+}
+}

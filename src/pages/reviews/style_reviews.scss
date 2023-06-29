@@ -1,0 +1,376 @@
+
+
+.reviews{
+  display: flex;
+  height: 140px;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 96px;
+  font-family: Piazzolla;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+    span{
+      background: rgba(204, 128, 255, 0.59);
+      padding: 20px;
+    }
+}
+
+
+
+.ostav_reviews{
+  display: flex;
+  background: rgba(204, 128, 255, 0.59);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+    span{
+      padding: 20px;
+      flex-shrink: 0;
+      color: #000;
+      text-align: center;
+      font-size: 64px;
+      font-family: Piazzolla;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+}
+
+.Name{
+  display: flex;
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.Name_pole{
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Name__input {
+  display: flex;
+  width: 500px;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.write_review{
+  display: flex;
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.write_review_pole {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.write_review_pole__input {
+  display: flex;
+  width: 500px;
+  height: 200px;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.push_review {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  div{
+    display: flex;
+    border-radius: 50px;
+    color: rgb(126, 100, 100);
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 7.5em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    a:hover { background: rgba(255,255,255,.2); }
+    a:active { background: white; }
+  }
+} 
+
+
+
+.reviews_users{
+  display: flex;
+  background: rgba(204, 128, 255, 0.59);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+    span{
+      padding: 20px;
+      flex-shrink: 0;
+      color: #000;
+      text-align: center;
+      font-size: 64px;
+      font-family: Piazzolla;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+}
+
+/* (A) SAME DIMENSIONS FOR OUTER WRAPPER & SLIDES */
+.vwrap, .vslide { 
+    height: 150px; 
+}
+ 
+/* (B) OUTER WRAPPER HIDE SCROLLBAR */
+.vwrap { overflow: hidden; display: flex; justify-content: center; align-items: center;}
+ 
+/* (C) SHIFT SLIDES WITH CSS ANIMATION */
+/* (C1) SLIDES POSITION */
+.vmove { position: relative; bottom: 0%; }
+@keyframes slidev {
+  0% { bottom: 0; } 30% { bottom: 0; }
+  33% { bottom: 100%; } 63% { bottom: 100%; }
+  66% { bottom: 200%; } 97% { bottom: 200%; }
+  100% { right: 0; }
+}
+ 
+/* (C2) MOVE SLIDES */
+.vmove { animation: slidev linear 15s infinite; }
+.vmove:hover { animation-play-state: paused; }
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+
+  .reviews{
+    display: flex;
+    height: 140px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 32px;
+    font-family: Piazzolla;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+      span{
+        background: rgba(204, 128, 255, 0.59);
+        padding: 20px;
+      }
+  }
+  
+  
+  
+  .ostav_reviews{
+    display: flex;
+    background: rgba(204, 128, 255, 0.59);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+      span{
+        padding: 20px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-size: 28px;
+        font-family: Piazzolla;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+  }
+  
+  .Name{
+    display: flex;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .Name_pole{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Name__input {
+    display: flex;
+    width: 500px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .write_review{
+    display: flex;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .write_review_pole {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .write_review_pole__input {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .push_review {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    div{
+      display: flex;
+      border-radius: 50px;
+      color: rgb(126, 100, 100);
+      font-weight: 700;
+      text-decoration: none;
+      user-select: none;
+      padding: .5em 7.5em;
+      outline: none;
+      border: 2px solid;
+      border-radius: 1px;
+      transition: 0.2s;
+      a:hover { background: rgba(255,255,255,.2); }
+      a:active { background: white; }
+    }
+  } 
+  
+  
+  
+  .reviews_users{
+    display: flex;
+    background: rgba(204, 128, 255, 0.59);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+      span{
+        padding: 20px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-size: 28px;
+        font-family: Piazzolla;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+  
+  }
+  
+  /* (A) SAME DIMENSIONS FOR OUTER WRAPPER & SLIDES */
+  .vwrap, .vslide { 
+      height: 150px; 
+  }
+   
+  /* (B) OUTER WRAPPER HIDE SCROLLBAR */
+  .vwrap { overflow: hidden; display: flex; justify-content: center; align-items: center;}
+   
+  /* (C) SHIFT SLIDES WITH CSS ANIMATION */
+  /* (C1) SLIDES POSITION */
+  .vmove { position: relative; bottom: 0%; }
+  @keyframes slidev {
+    0% { bottom: 0; } 30% { bottom: 0; }
+    33% { bottom: 100%; } 63% { bottom: 100%; }
+    66% { bottom: 200%; } 97% { bottom: 200%; }
+    100% { right: 0; }
+  }
+   
+  /* (C2) MOVE SLIDES */
+  .vmove { animation: slidev linear 15s infinite; }
+  .vmove:hover { animation-play-state: paused; }
+}
